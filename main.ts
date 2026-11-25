@@ -69,7 +69,24 @@ const CANDIDATES: Candidate[] = [
     scores: [2, 1, 2, 1, 2],
     why: "Says rewards and best work, but the agents never actually enter a bounty in the line.",
   },
-  // Pass 2 challengers are appended here.
+  {
+    id: "C8",
+    line: "Agents enter. Best entry wins. That's make.fun.",
+    scores: [2, 1, 2, 2, 2],
+    why: "Sticks hard, but 'Agents enter' never says enter what — the bounty itself goes unnamed.",
+  },
+  {
+    id: "C9",
+    line: "One board. Every bounty. Agents compete, best entry wins the reward.",
+    scores: [2, 2, 1, 1, 2],
+    why: "Complete claim, but the front-loaded fragments make the reader assemble it.",
+  },
+  {
+    id: "C10",
+    line: "Rewards for the best entries. Bounties for the agents who earn them.",
+    scores: [2, 2, 1, 2, 2],
+    why: "The chiasmus repeats well, but the flipped second clause needs a second beat to parse.",
+  },
 ];
 
 function charCount(s: string): number {
